@@ -302,13 +302,13 @@ a {
  .btn-events{
  	position: absolute;
     height: 40px;
-    width: 150px;
     background-color: #15982b;
     left: 0;
     bottom: -41px;
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
+    display: inline-block;
 
  }
 
@@ -328,11 +328,17 @@ a {
 
 .left-contain{
 	width: 50%;
+	float: left;
+}
+.right-contain{
+	float: right;
+	width: 50%;
 }
 .first-info-block{
 	float: left;
 	width: 60%;
 	margin: auto 0;
+	padding-top: 1px;
 }
 
 .first-bltxt-style{
@@ -360,6 +366,19 @@ a {
 	text-align: center;
 }
 
+.right-contain h4{
+	color: #c7c7c7;
+	margin: 0px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.right-contain .social-network h4{
+	color: #c7c7c7;
+	margin: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
 
 
 .second-img{
@@ -386,4 +405,70 @@ a {
 
 }
 
+.about-sc{
+	float: left;
+	width: 35%;
+}
+
+.team{
+	float: left;
+	width: 25%;
+}
+
+.image-about{
+	background-image: url(../image/logo-footer.png);
+	background-repeat: no-repeat;
+	margin: 5px auto;
+	height: 65px;
+	background-position: 50%;
+}
+
+.image-team{
+	background-image: url(../image/icon_team.png);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	height: 45px;
+	margin: 15px 0px;
+}
+
+.social-network{
+	float: right;
+	width: 40%;
+}
+
+.social-img-st{
+background-repeat: no-repeat;
+background-position: center right;
+height: 44px;
+width: 44px;
+margin: 15px 0 0 5px;
+}
+
+.social-img-in{
+	float: right;
+	background-image: url(../image/social-in.png);
+}
+
+.social-img-rss{
+	float: right;
+	background-image: url(../image/social-rss.png);
+
+}
+.social-img-tw{
+	float: right;
+	background-image: url(../image/social-twitter.png);
+
+}
+.social-img-fb{
+	float: right;
+	background-image: url(../image/social-facebook.png);
+}
+
+.footer-tel{
+	height: 50px;
+	margin: 10px auto;
+	float: right;
+	color: white;
+	font-size: 40px;
+}
 
