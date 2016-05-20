@@ -322,7 +322,7 @@ a {
 /*---prefooter--*/
 
 .prev-footer{
-	height: 200px;
+	height: 175px;
 	background-color: #24272d;
 }
 
@@ -472,3 +472,57 @@ margin: 15px 0 0 5px;
 	font-size: 40px;
 }
 
+.footer{
+	height: 60px;
+	background-color: #2b2e35;
+}
+
+.prava{
+	width: 75%;
+}
+
+.copyright{
+	display: inline-block;
+	float: left;
+	padding: 20px 0;
+	color: #797d87;
+	font-size: 15px;
+
+}
+
+.terms-use{
+	display: inline-block;
+    float: left;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.footer  a{
+
+    color: #797d87;
+}
+
+.bord{
+	border-right: 1px solid #888282;
+    float: right;
+    padding: 8px 10px;
+}
+
+.policy{
+	display: inline-block;
+    float: left;
+    padding: 20px 0 20px;
+    font-size: 15px;
+}
+
+.right-foot-logo{
+	float: right;
+	width: 20%;
+}
+
+.image-destination{
+	background-image: url(../image/da-logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;
+}
