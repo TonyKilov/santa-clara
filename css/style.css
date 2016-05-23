@@ -517,7 +517,8 @@ margin: 15px 0 0 5px;
 
 .right-foot-logo{
 	float: right;
-	width: 20%;
+	text-align: center;
+	width: 15%;
 }
 
 .image-destination{
